@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('http://fonts.cdnfonts.com/css/coca-cola-ii');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
   box-sizing: border-box;
@@ -75,7 +75,7 @@ body {
   color: #eeeeee;
   position: absolute;
   right: 0;
-  margin-top: 750px;
+  margin-top: 90vh;
   margin-right: 50px;
 }
 
@@ -159,7 +159,7 @@ body {
 }
 
 .name-setth {
-  font-family: 'Coca Cola ii', sans-serif;
+  font-family: 'Great Vibes', cursive;
   font-size: 100px;
   padding-left: 50px;
   padding-bottom: 100px;
