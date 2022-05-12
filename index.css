@@ -166,6 +166,7 @@ body {
 }
 
 .name-icon {
+  width: 200px;
   font-size: 300px;
   padding-right: 250px;
   color: #eeeeee;
@@ -202,5 +203,82 @@ body {
   color: #eeeeee;
   text-align: center;
   padding-top: 20px;
+}
+
+.aside {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.guest-title {
+  width: 500px;
+  height: 500px;
+}
+
+.guest-title p {
+  color: #eeeeee;
+  font-size: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.title-inputset {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-inputset input {
+  background-color: black;
+  width: 30px;
+  border-style: none;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 3px solid #eeeeee;
+  transition: all 0.5s;
+  color: #eeeeee;
+}
+
+.title-inputset button {
+  padding: 5px 20px 5px 20px;
+  background-color: #eeeeee;
+  border-style: none;
+  border-radius: 5px;
+  color: royalblue;
+}
+
+.title-inputset button:hover {
+  background-color: royalblue;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.guest-contents {
+  width: 900px;
+  height: 500px;
+}
+
+.contents-box {
+  width: 800px;
+  height: 100px;
+  border: 3px solid #eeeeee;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  color: #eeeeee;
+}
+
+.box-name {
+  padding-bottom: 20px;
 }
 
