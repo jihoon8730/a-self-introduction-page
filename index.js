@@ -18,6 +18,13 @@ document.querySelector('.set-input2').addEventListener('click', function () {
 document.querySelector('.set-button').addEventListener('click', function () {
   let inputOneValue = document.querySelector('.set-input1').value;
   let inputTwoValue = document.querySelector('.set-input2').value;
+  if (inputOneValue === "") {
+    alert("이름을 입력하셈");
+    return false;
+  } else if (inputTwoValue === "") {
+    alert("내용도 입력하셈");
+    return false;
+  };
   let temp = `<div class="contents-box">
                 <p class="box-name" > ${inputOneValue}</p>
                 <p class="box-contents">${inputTwoValue}</p>

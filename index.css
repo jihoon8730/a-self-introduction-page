@@ -245,16 +245,17 @@ body {
 
 .title-inputset button {
   padding: 5px 20px 5px 20px;
-  background-color: #eeeeee;
-  border-style: none;
+  background-color: black;
+  border: 1px solid #eeeeee;
   border-radius: 5px;
-  color: royalblue;
+  color: #eeeeee;
 }
 
 .title-inputset button:hover {
   background-color: royalblue;
   color: #eeeeee;
   cursor: pointer;
+  border-style: none;
 }
 
 input:focus {
